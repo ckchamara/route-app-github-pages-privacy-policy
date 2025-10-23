@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy Policy for RouteBus - A bus route management and tracking application">
+    <title>RouteBus Privacy Policy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 60px 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.1em;
+            opacity: 0.95;
+            margin-bottom: 20px;
+        }
+
+        .meta-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+            font-size: 0.95em;
+            opacity: 0.9;
+        }
+
+        .meta-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .meta-label {
+            font-weight: 600;
+            opacity: 0.8;
+            font-size: 0.85em;
+        }
+
+        .meta-value {
+            margin-top: 5px;
+        }
+
+        main {
+            padding: 60px 40px;
+        }
+
+        h2 {
+            color: #667eea;
+            font-size: 1.8em;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #667eea;
+        }
+
+        h3 {
+            color: #764ba2;
+            font-size: 1.3em;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+
+        h4 {
+            color: #555;
+            font-size: 1.1em;
+            margin-top: 15px;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        p {
+            margin-bottom: 15px;
+            text-align: justify;
+        }
+
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 15px;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        strong {
+            color: #764ba2;
+            font-weight: 600;
+        }
+
+        a {
+            color: #667eea;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        a:hover {
+            color: #764ba2;
+            text-decoration: underline;
+        }
+
+        hr {
+            border: none;
+            height: 2px;
+            background: linear-gradient(to right, #667eea, #764ba2, #667eea);
+            margin: 40px 0;
+            opacity: 0.3;
+        }
+
+        .highlight-box {
+            background: #f0f4ff;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        footer {
+            background: #f8f9fa;
+            padding: 30px 40px;
+            text-align: center;
+            color: #666;
+            font-size: 0.95em;
+            border-top: 1px solid #e0e0e0;
+        }
+
+        footer p {
+            margin-bottom: 10px;
+        }
+
+        .last-updated {
+            color: #999;
+            font-size: 0.9em;
+            margin-top: 20px;
+        }
+
+        @media (max-width: 768px) {
+            header {
+                padding: 40px 20px;
+            }
+
+            header h1 {
+                font-size: 1.8em;
+            }
+
+            main {
+                padding: 30px 20px;
+            }
+
+            h2 {
+                font-size: 1.4em;
+            }
+
+            h3 {
+                font-size: 1.1em;
+            }
+
+            .meta-info {
+                gap: 15px;
+                flex-direction: column;
+            }
+
+            .container {
+                border-radius: 8px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            body {
+                padding: 10px;
+            }
+
+            header {
+                padding: 30px 15px;
+            }
+
+            header h1 {
+                font-size: 1.5em;
+            }
+
+            main {
+                padding: 20px 15px;
+            }
+
+            h2 {
+                font-size: 1.2em;
+            }
+
+            h3 {
+                font-size: 1em;
+            }
+
+            ul, ol {
+                margin-left: 20px;
+            }
+        }
+
+        .toc {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 30px 0;
+        }
+
+        .toc h3 {
+            margin-top: 0;
+        }
+
+        .toc ul {
+            list-style: none;
+            margin-left: 0;
+        }
+
+        .toc li {
+            margin-bottom: 8px;
+        }
+
+        .toc a {
+            color: #667eea;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>RouteBus Privacy Policy</h1>
+            <p>Your privacy is important to us</p>
+            <div class="meta-info">
+                <div class="meta-item">
+                    <span class="meta-label">Effective Date</span>
+                    <span class="meta-value">January 15, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">Last Updated</span>
+                    <span class="meta-value">October 19, 2025</span>
+                </div>
+                <div class="meta-item">
+                    <span class="meta-label">App Name</span>
+                    <span class="meta-value">RouteBus</span>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div class="highlight-box">
+                <strong>Package Names:</strong> com.routebus.app (Production), com.routebus.app.dev (Development)
+            </div>
+
+            <h2>Introduction</h2>
+            <p>Welcome to RouteBus! We are committed to protecting your privacy and ensuring you have a positive experience while using our application. This Privacy Policy explains how we collect, use, store, and protect your information when you use our bus route management and tracking application.</p>
+            <p>By using RouteBus, you agree to the collection and use of information in accordance with this policy. If you do not agree with our practices, please do not use the app.</p>
+
+            <h2>1. Information We Collect</h2>
+
+            <h3>1.1 Information You Provide Directly</h3>
+
+            <h4>Authentication Information:</h4>
+            <p>When you sign in with Google, we collect:</p>
+            <ul>
+                <li>Your name</li>
+                <li>Email address</li>
+                <li>Profile picture</li>
+                <li>Google account ID</li>
+            </ul>
+            <p>This information is used to create and manage your account in Firebase Authentication</p>
+
+            <h4>Route Information:</h4>
+            <ul>
+                <li>Route numbers you create or request</li>
+                <li>Starting locations and destination locations</li>
+                <li>Route path data including waypoints, stops, and addresses</li>
+                <li>Administrative division (province/state) selections</li>
+                <li>Route descriptions and notes you add</li>
+            </ul>
+
+            <h4>Feedback and Contributions:</h4>
+            <ul>
+                <li>Feedback ratings (thumbs up/down) on routes</li>
+                <li>Specific feedback reasons (e.g., "Map is wrong", "Route number is wrong", "Route name is wrong")</li>
+                <li>Route edits and improvements you contribute</li>
+                <li>Comments or descriptions accompanying your feedback</li>
+                <li>Timestamps of when feedback was submitted</li>
+            </ul>
+
+            <h4>Search and Interaction Data:</h4>
+            <ul>
+                <li>Search queries for locations and routes</li>
+                <li>Places you search for using the autocomplete feature</li>
+                <li>Addresses you enter or select</li>
+            </ul>
+
+            <h3>1.2 Information Collected Automatically</h3>
+
+            <h4>Location Data:</h4>
+            <p>Your device's GPS coordinates (latitude, longitude) when you use location-based features. Location data is used to:</p>
+            <ul>
+                <li>Detect your country and administrative division</li>
+                <li>Center the map on your current location</li>
+                <li>Provide accurate route directions and navigation</li>
+                <li>Show routes relevant to your location</li>
+            </ul>
+            <div class="highlight-box">
+                <strong>Important:</strong> Location tracking only occurs when you actively use the app and have granted location permissions. We do <strong>NOT</strong> track your location in the background when the app is closed. You can disable location access at any time in your device settings.
+            </div>
+
+            <h4>Device and System Information:</h4>
+            <ul>
+                <li>Device model and manufacturer</li>
+                <li>Operating system version and build number</li>
+                <li>Device unique identifiers (for analytics purposes only)</li>
+                <li>App version number</li>
+                <li>Locale and language settings</li>
+            </ul>
+
+            <h4>Usage and Performance Data:</h4>
+            <ul>
+                <li>Routes you view and interact with</li>
+                <li>Features you use and how frequently</li>
+                <li>App performance metrics (load times, crashes)</li>
+                <li>Error logs and crash reports</li>
+                <li>Session duration and frequency of app usage</li>
+                <li>Map interaction data (zoom levels, camera positions)</li>
+                <li>Markers and waypoints you place on the map</li>
+            </ul>
+
+            <h4>Network Information:</h4>
+            <ul>
+                <li>IP address (for backend API communication)</li>
+                <li>Network type (WiFi, mobile data)</li>
+                <li>API request/response data</li>
+            </ul>
+
+            <h3>1.3 Information from Third-Party Services</h3>
+
+            <h4>Google Services:</h4>
+            <ul>
+                <li>Google Maps API provides map data, route directions, and geocoding information</li>
+                <li>Google Places API provides location suggestions and address autocomplete</li>
+                <li>Google Sign-In provides authentication verification</li>
+            </ul>
+
+            <h4>Firebase Services:</h4>
+            <ul>
+                <li>Firebase Authentication provides secure user authentication</li>
+                <li>Firebase Crashlytics collects crash reports and error logs</li>
+                <li>Firebase Core provides backend infrastructure</li>
+            </ul>
+
+            <h2>2. How We Use Your Information</h2>
+
+            <h3>To Provide Core Services:</h3>
+            <ul>
+                <li>Display bus routes and route information on maps</li>
+                <li>Allow you to create, edit, and manage routes</li>
+                <li>Show routes relevant to your location</li>
+                <li>Provide route directions and navigation between waypoints</li>
+                <li>Calculate optimal routes using Google Directions API</li>
+                <li>Convert addresses to coordinates and vice versa using geocoding</li>
+            </ul>
+
+            <h3>To Improve User Experience:</h3>
+            <ul>
+                <li>Remember your preferences (selected country, administrative divisions)</li>
+                <li>Provide personalized route recommendations based on your location</li>
+                <li>Improve route accuracy based on user feedback</li>
+                <li>Optimize app performance and responsiveness</li>
+                <li>Enhance map display and navigation features</li>
+            </ul>
+
+            <h3>To Enable Community Features:</h3>
+            <ul>
+                <li>Allow users to contribute route improvements and corrections</li>
+                <li>Collect and display aggregated route feedback (ratings and statistics)</li>
+                <li>Enable route sharing functionality with other users</li>
+                <li>Track which routes are most helpful to the community</li>
+            </ul>
+
+            <h3>For Analytics and Improvements:</h3>
+            <ul>
+                <li>Understand how users interact with the app</li>
+                <li>Identify and fix bugs and crashes</li>
+                <li>Improve app features and performance</li>
+                <li>Analyze usage patterns to enhance user experience</li>
+                <li>Monitor API usage and performance</li>
+                <li>Generate analytics reports on route popularity and feedback</li>
+            </ul>
+
+            <h3>For Security and Compliance:</h3>
+            <ul>
+                <li>Detect and prevent fraudulent activity</li>
+                <li>Enforce our Terms of Service</li>
+                <li>Comply with legal obligations and law enforcement requests</li>
+                <li>Protect the rights, property, and safety of RouteBus, our users, and the public</li>
+            </ul>
+
+            <h2>3. Data Storage and Security</h2>
+
+            <h3>Where Your Data is Stored:</h3>
+
+            <h4>User Authentication:</h4>
+            <p><strong>Firebase Authentication (Google Cloud Infrastructure)</strong></p>
+            <ul>
+                <li>Location: Google Cloud data centers (multiple regions)</li>
+                <li>Encrypted at rest and in transit</li>
+            </ul>
+
+            <h4>Route Data & Feedback:</h4>
+            <p><strong>MySQL database hosted on Aiven Cloud</strong></p>
+            <ul>
+                <li>Location: Aiven Cloud infrastructure</li>
+                <li>Encrypted database connections</li>
+            </ul>
+
+            <h4>Map Images:</h4>
+            <p><strong>Cloudflare R2 object storage</strong></p>
+            <ul>
+                <li>Location: Cloudflare global network</li>
+                <li>Encrypted storage</li>
+            </ul>
+
+            <h4>Local Device Storage:</h4>
+            <p><strong>Your device's secure local storage</strong></p>
+            <ul>
+                <li>Preferences and cached data</li>
+                <li>Encrypted using device-level encryption</li>
+            </ul>
+
+            <h3>How We Protect Your Data:</h3>
+            <ul>
+                <li>All data transmission uses HTTPS/TLS encryption (minimum TLS 1.2)</li>
+                <li>Database access is restricted with strong authentication and password protection</li>
+                <li>We implement industry-standard security measures to protect against unauthorized access</li>
+                <li>Regular security updates and patches</li>
+                <li>Access controls limit who can view sensitive data</li>
+                <li>Sensitive credentials are stored securely and never logged</li>
+            </ul>
+
+            <h3>Data Retention:</h3>
+
+            <h4>Account Data:</h4>
+            <p>Retained as long as your account is active. Deleted upon account deletion request (within 30 days)</p>
+
+            <h4>Route Data:</h4>
+            <p>Retained indefinitely to maintain service quality and community contributions. Can be deleted by the route creator. Anonymized if account is deleted.</p>
+
+            <h4>Feedback Data:</h4>
+            <p>Retained for analytics and improvement purposes. Aggregated and anonymized for reporting. Individual feedback can be deleted upon request.</p>
+
+            <h4>Crash Reports:</h4>
+            <p>Retained for 90 days for debugging purposes. Automatically purged after retention period.</p>
+
+            <h4>Location Data:</h4>
+            <p>Not permanently stored. Used only for current session. Not retained after app closes.</p>
+
+            <h2>4. Third-Party Services and Data Sharing</h2>
+
+            <h3>4.1 Google Services</h3>
+
+            <h4>Google Maps Platform:</h4>
+            <ul>
+                <li><strong>Google Maps API:</strong> For displaying interactive maps, route visualization, and map controls</li>
+                <li><strong>Google Directions API:</strong> For calculating optimal routes between waypoints</li>
+                <li><strong>Google Geocoding API:</strong> For converting addresses to coordinates and vice versa</li>
+                <li><strong>Google Places API:</strong> For location autocomplete, address search, and place suggestions</li>
+                <li><strong>Google Sign-In:</strong> For secure authentication with your Google account</li>
+            </ul>
+            <p><strong>Data Shared:</strong> Location coordinates, addresses, route waypoints, search queries</p>
+            <p><strong>Privacy Policy:</strong> <a href="https://policies.google.com/privacy" target="_blank">https://policies.google.com/privacy</a></p>
+            <p><strong>Terms of Service:</strong> <a href="https://cloud.google.com/maps-platform/terms" target="_blank">https://cloud.google.com/maps-platform/terms</a></p>
+
+            <h3>4.2 Firebase Services (Google Cloud)</h3>
+
+            <h4>Firebase Authentication:</h4>
+            <p>Secure user authentication and session management</p>
+            <p><strong>Data Shared:</strong> Email, name, profile picture, authentication tokens</p>
+
+            <h4>Firebase Crashlytics:</h4>
+            <p>Crash reporting and error tracking. Used only in production builds (disabled in debug builds)</p>
+            <p><strong>Data Shared:</strong> Crash logs, stack traces, device information, app version</p>
+
+            <h4>Firebase Core:</h4>
+            <p>Backend infrastructure and data synchronization</p>
+
+            <p><strong>Privacy Policy:</strong> <a href="https://firebase.google.com/support/privacy" target="_blank">https://firebase.google.com/support/privacy</a></p>
+
+            <h3>4.3 Cloud Infrastructure Providers</h3>
+
+            <h4>Aiven Cloud (MySQL Database):</h4>
+            <p>Hosts our route data, user feedback, and analytics database</p>
+            <p><strong>Data Shared:</strong> All route information, feedback, user contributions</p>
+            <p><strong>Privacy Policy:</strong> <a href="https://aiven.io/privacy" target="_blank">https://aiven.io/privacy</a></p>
+            <p><strong>Data Processing Agreement:</strong> Available upon request</p>
+
+            <h4>Cloudflare R2 (Object Storage):</h4>
+            <p>Stores generated map images and route visualizations</p>
+            <p><strong>Data Shared:</strong> Map images, route paths</p>
+            <p><strong>Privacy Policy:</strong> <a href="https://www.cloudflare.com/privacypolicy/" target="_blank">https://www.cloudflare.com/privacypolicy/</a></p>
+            <p><strong>Data Processing Agreement:</strong> Available upon request</p>
+
+            <h3>4.4 Important Notes About Third-Party Services</h3>
+            <ul>
+                <li>Each third-party service has its own privacy policy and data handling practices</li>
+                <li>We encourage you to review their privacy policies to understand how they handle your data</li>
+                <li>We are not responsible for third-party privacy practices</li>
+                <li>We have Data Processing Agreements with all infrastructure providers</li>
+                <li>All third-party services comply with GDPR and international data protection standards</li>
+            </ul>
+
+            <h2>5. Data Sharing and Disclosure</h2>
+
+            <h3>We Do Not Sell Your Data:</h3>
+            <p>We will <strong>never</strong> sell, rent, lease, or trade your personal information to third parties. We do not share your data with advertisers or marketing companies. We do not use your data for targeted advertising.</p>
+
+            <h3>When We May Share Data:</h3>
+
+            <h4>With Your Explicit Consent:</h4>
+            <ul>
+                <li>When you explicitly agree to share information</li>
+                <li>When you choose to share a route with other users</li>
+                <li>When you submit feedback or bug reports</li>
+            </ul>
+
+            <h4>With Service Providers:</h4>
+            <ul>
+                <li>With trusted third-party services (listed above) necessary to operate the app</li>
+                <li>Only the minimum data necessary to provide the service</li>
+                <li>Under strict confidentiality agreements</li>
+            </ul>
+
+            <h4>For Legal Compliance:</h4>
+            <ul>
+                <li>If required by law, court order, or government regulation</li>
+                <li>To comply with legal obligations</li>
+                <li>To respond to lawful requests from authorities</li>
+                <li>We will notify you of such requests when legally permitted</li>
+            </ul>
+
+            <h4>For Safety and Security:</h4>
+            <ul>
+                <li>To protect the rights, property, or safety of RouteBus, our users, or the public</li>
+                <li>To detect, prevent, or address fraud, security, or technical issues</li>
+                <li>To enforce our Terms of Service and other agreements</li>
+            </ul>
+
+            <h4>In Case of Business Transfer:</h4>
+            <p>If RouteBus is acquired, merged, or sold, your data may be transferred as part of that transaction. We will notify you of any such change and any choices you may have.</p>
+
+            <h4>Public Information:</h4>
+            <ul>
+                <li>Routes you create are visible to other users of the app</li>
+                <li>Route feedback (ratings) is aggregated and displayed publicly</li>
+                <li>Your name may be associated with routes you create</li>
+                <li>You can control the visibility of your routes through app settings</li>
+                <li>Aggregated and anonymized analytics may be published</li>
+            </ul>
+
+            <h2>6. Your Rights and Choices</h2>
+
+            <h3>Access Your Data:</h3>
+            <ul>
+                <li>View your account information in Settings > Account Details</li>
+                <li>Request a copy of all your personal data by contacting us</li>
+                <li>We will provide your data in a portable format within 30 days</li>
+            </ul>
+
+            <h3>Update Your Data:</h3>
+            <ul>
+                <li>Edit your account information in Settings > Account Details</li>
+                <li>Update your profile picture and name</li>
+                <li>Modify your route information and contributions</li>
+            </ul>
+
+            <h3>Delete Your Data:</h3>
+            <ul>
+                <li>Delete individual routes you have created</li>
+                <li>Delete your account and associated personal data</li>
+                <li>Account deletion will remove your personal information within 30 days</li>
+                <li>Public contributions (routes, feedback) may be retained in anonymized form for community benefit</li>
+            </ul>
+
+            <h3>Control Location Access:</h3>
+            <ul>
+                <li>Enable or disable location access in your device settings</li>
+                <li>The app will still function with limited features if location is disabled</li>
+                <li>You can revoke location permissions at any time</li>
+            </ul>
+
+            <h3>Opt-Out of Data Collection:</h3>
+            <ul>
+                <li>Disable crash reporting in app settings (if available)</li>
+                <li>Stop using the app at any time</li>
+                <li>Uninstalling the app will stop all data collection</li>
+            </ul>
+
+            <h3>Data Portability:</h3>
+            <ul>
+                <li>Request your data in a standard, portable format</li>
+                <li>Transfer your data to another service</li>
+                <li>Contact us for assistance with data portability</li>
+            </ul>
+
+            <h3>Right to Withdraw Consent:</h3>
+            <p>Withdraw consent for data processing at any time. This will not affect the legality of processing before withdrawal.</p>
+
+            <h3>Right to Object:</h3>
+            <ul>
+                <li>Object to certain types of data processing</li>
+                <li>Request restriction of data processing</li>
+                <li>Contact us to exercise these rights</li>
+            </ul>
+
+            <h2>7. Children's Privacy</h2>
+
+            <h3>Age Restriction:</h3>
+            <ul>
+                <li>RouteBus is not intended for children under the age of 13</li>
+                <li>We do not knowingly collect personal information from children under 13</li>
+                <li>We do not knowingly allow children under 13 to create accounts or use the app</li>
+            </ul>
+
+            <h3>Parental Responsibility:</h3>
+            <ul>
+                <li>Parents and guardians are responsible for monitoring their children's use of the app</li>
+                <li>If you are a parent or guardian and believe your child has provided us with personal information, please contact us immediately</li>
+                <li>We will delete such information within 30 days of verification</li>
+            </ul>
+
+            <h3>COPPA Compliance:</h3>
+            <ul>
+                <li>We comply with the Children's Online Privacy Protection Act (COPPA)</li>
+                <li>We do not collect more information from children than necessary</li>
+                <li>We do not use children's information for marketing or advertising purposes</li>
+            </ul>
+
+            <h2>8. Privacy Compliance and Legal Basis</h2>
+
+            <h3>GDPR Compliance (European Users):</h3>
+            <p>We comply with the General Data Protection Regulation (GDPR)</p>
+            <p><strong>Legal basis for processing:</strong></p>
+            <ul>
+                <li><strong>Consent:</strong> For authentication and optional features</li>
+                <li><strong>Contract:</strong> To provide the app services</li>
+                <li><strong>Legitimate Interest:</strong> For analytics and security</li>
+                <li><strong>Legal Obligation:</strong> To comply with laws and regulations</li>
+            </ul>
+            <p>You have rights under GDPR including access, rectification, erasure, and portability. Data transfers outside the EU are protected by appropriate safeguards.</p>
+
+            <h3>CCPA Compliance (California Users):</h3>
+            <p>We comply with the California Consumer Privacy Act (CCPA)</p>
+            <p><strong>You have the right to:</strong></p>
+            <ul>
+                <li>Know what personal information is collected</li>
+                <li>Delete personal information collected from you</li>
+                <li>Opt-out of the sale of your personal information (we do not sell data)</li>
+                <li>Non-discrimination for exercising your CCPA rights</li>
+            </ul>
+
+            <h3>Other Privacy Laws:</h3>
+            <p>We comply with applicable privacy laws in all jurisdictions where we operate. This includes laws in Sri Lanka, India, and other countries.</p>
+
+            <h3>Data Protection Officer:</h3>
+            <p>For privacy inquiries, contact: <strong>privacy@routebus.app</strong></p>
+            <p>We will respond to all privacy requests within 30 days.</p>
+
+            <h2>9. Changes to This Privacy Policy</h2>
+
+            <p>We may update this Privacy Policy from time to time to reflect:</p>
+            <ul>
+                <li>Changes in our data practices</li>
+                <li>New features or services</li>
+                <li>Legal, operational, or regulatory requirements</li>
+                <li>Feedback from users</li>
+            </ul>
+
+            <h3>How We Notify You:</h3>
+            <ul>
+                <li>We will post the updated policy in the app</li>
+                <li>The "Last Updated" date at the top will be changed</li>
+                <li>For significant changes, we will notify you via:
+                    <ul>
+                        <li>In-app notification</li>
+                        <li>Email notification (if we have your email)</li>
+                        <li>Prominent notice in the app</li>
+                    </ul>
+                </li>
+            </ul>
+
+            <h3>Your Rights Upon Changes:</h3>
+            <ul>
+                <li>You will have the opportunity to review changes before they take effect</li>
+                <li>For material changes, we will request your consent</li>
+                <li>Continued use of the app after changes constitutes acceptance of the updated policy</li>
+                <li>You can delete your account if you disagree with changes</li>
+            </ul>
+
+            <h3>Archive of Previous Versions:</h3>
+            <p>Previous versions of this policy are available upon request. Contact us to request a specific version.</p>
+
+            <h2>10. Contact Us</h2>
+
+            <p>If you have any questions, concerns, or requests regarding this Privacy Policy or your data, please contact us:</p>
+
+            <div class="highlight-box">
+                <p><strong>Email:</strong> privacy@routebus.app</p>
+                <p><strong>Support Email:</strong> support@routebus.app</p>
+                <p><strong>In-App:</strong> Settings > Account Details > Contact Support</p>
+            </div>
+
+            <h3>Data Subject Requests:</h3>
+            <ul>
+                <li>For access, deletion, or portability requests, email: <strong>privacy@routebus.app</strong></li>
+                <li>Include "Data Subject Request" in the subject line</li>
+                <li>Provide your account email and specific request details</li>
+            </ul>
+
+            <h3>Response Time:</h3>
+            <ul>
+                <li>We will respond to your inquiry within 30 days</li>
+                <li>For complex requests, we may need additional time (up to 90 days)</li>
+                <li>We will notify you if we need more time</li>
+            </ul>
+
+            <h3>Escalation:</h3>
+            <p>If you are not satisfied with our response, you have the right to lodge a complaint with your local data protection authority.</p>
+
+            <h2>11. International Data Transfers</h2>
+
+            <h3>Data Location:</h3>
+            <p>Your data is stored in multiple geographic locations:</p>
+            <ul>
+                <li>Google Cloud (Firebase) - Multiple regions</li>
+                <li>Aiven Cloud - EU and US regions</li>
+                <li>Cloudflare - Global CDN</li>
+            </ul>
+
+            <h3>Data Protection:</h3>
+            <p>All international transfers are protected by:</p>
+            <ul>
+                <li>Standard Contractual Clauses (SCCs)</li>
+                <li>Data Processing Agreements (DPAs)</li>
+                <li>Appropriate safeguards under GDPR</li>
+            </ul>
+
+            <h3>Your Rights:</h3>
+            <ul>
+                <li>You have the right to know where your data is stored</li>
+                <li>You can request information about data transfer mechanisms</li>
+                <li>Contact us for details about specific data locations</li>
+            </ul>
+
+            <h2>12. Security Incident Notification</h2>
+
+            <h3>In Case of a Data Breach:</h3>
+            <p>We will notify affected users without undue delay. Notification will include:</p>
+            <ul>
+                <li>Description of the incident</li>
+                <li>Types of data affected</li>
+                <li>Likely consequences</li>
+                <li>Measures taken to address the breach</li>
+                <li>Contact information for further inquiries</li>
+            </ul>
+            <p>We will notify relevant authorities as required by law.</p>
+
+            <h3>Your Responsibilities:</h3>
+            <ul>
+                <li>Keep your password secure</li>
+                <li>Do not share your login credentials</li>
+                <li>Report suspicious activity immediately</li>
+                <li>Keep your device software updated</li>
+            </ul>
+
+            <h2>13. Your Consent</h2>
+
+            <p>By using RouteBus, you:</p>
+            <ul>
+                <li>Consent to this Privacy Policy and agree to its terms</li>
+                <li>Acknowledge that you have read and understood this policy</li>
+                <li>Agree to the collection and use of information as described</li>
+                <li>Understand that you can withdraw consent at any time</li>
+            </ul>
+
+            <h3>Withdrawal of Consent:</h3>
+            <ul>
+                <li>You can withdraw consent by deleting your account</li>
+                <li>You can disable specific features (like location access) in settings</li>
+                <li>Withdrawal will not affect the legality of processing before withdrawal</li>
+            </ul>
+
+            <h2>14. Additional Information</h2>
+
+            <h3>Cookies and Tracking:</h3>
+            <p>RouteBus does not use cookies or tracking pixels. We use local device storage for preferences only. Third-party services (Google, Firebase) may use their own tracking mechanisms.</p>
+
+            <h3>Third-Party Links:</h3>
+            <p>The app may contain links to third-party websites and services. We are not responsible for their privacy practices. Review their privacy policies before providing information.</p>
+
+            <h3>App Permissions:</h3>
+            <p>RouteBus requests the following permissions:</p>
+            <ul>
+                <li><strong>Location:</strong> For GPS-based features</li>
+                <li><strong>Internet:</strong> For API communication</li>
+                <li><strong>Camera:</strong> For future features (if applicable)</li>
+                <li><strong>Storage:</strong> For caching and local data</li>
+            </ul>
+            <p>You can revoke permissions at any time in device settings.</p>
+
+            <h3>Accessibility:</h3>
+            <p>This privacy policy is available in multiple formats. Contact us if you need an accessible version.</p>
+
+            <hr>
+
+            <div class="highlight-box">
+                <p style="text-align: center; font-size: 1.1em;">
+                    <strong>Thank you for trusting RouteBus with your information. We are committed to protecting your privacy and providing you with the best possible experience.</strong>
+                </p>
+            </div>
+        </main>
+
+        <footer>
+            <p><strong>RouteBus Privacy Policy</strong></p>
+            <p>Last Updated: October 19, 2025 | Version: 2.0</p>
+            <p>For questions or concerns, contact us at <a href="mailto:privacy@routebus.app">privacy@routebus.app</a></p>
+            <div class="last-updated">
+                <p>© 2025 RouteBus. All rights reserved.</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
+
